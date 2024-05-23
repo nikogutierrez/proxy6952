@@ -13,12 +13,12 @@
         width: 100vw;
         height: 100vh;
         overflow: hidden;
-        background: radial-gradient(circle, rgb(0, 0, 0), rgb(1, 44, 42));
+        background: radial-gradient(circle, rgb(0, 0, 0), rgb(1, 1, 1));
       }
     
       .star {
         position: absolute;
-        background: rgb(57, 255, 215);
+        background: rgb(f, f, f);
         border-radius: 50%;
         transform: scale(0);
         animation: sparkle 2s infinite, drift linear infinite;
@@ -86,7 +86,7 @@
         .image {
           width: 250px;
           height: 250px;
-          border: 2px solid #daf3f1;
+          border: 2px solid #fffff;
           margin: 40px;
           padding: 10px;
           box-sizing: border-box;
@@ -95,7 +95,7 @@
     
         .image:hover {
           transform: scale(1.1);
-          border-color: #9900ff;
+          border-color: #fffff;
         }
       </style>
     </head>
@@ -129,7 +129,7 @@
     menu.remove();
   };
 
-  button.innerHTML = 'Launch ByeBlocker';
+  button.innerHTML = 'Launch Proxy';
   button.style.cssText = `
     font-family: Arial;
     font-size: 16px;
